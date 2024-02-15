@@ -39,7 +39,7 @@ const About = () => {
                   </li>
                   <li>
                     <i className="fas fa-check"></i>Locked-in have can mountain
-                    thought
+                    
                   </li>
                 </ul>
               </div>
