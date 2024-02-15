@@ -42,7 +42,7 @@ const Banner = (props) => {
                 />
               </div>
               <h4 className="title">
-                65% target raised <span>1 ETH = $1000 = 3177.38 CIC</span>
+                65% target raised <span>1 ETH = $1000 = 3177.38 CIC updated</span>
               </h4>
             </div>
           </div>
