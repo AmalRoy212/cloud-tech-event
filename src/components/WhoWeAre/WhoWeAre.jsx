@@ -11,7 +11,7 @@ const WhoWeAre = (props) => {
           <div className="col-lg-6">
             <div className="about-img wow fadeInLeft" data-wow-delay=".2s">
               <img src={img01} alt="" />
-              <img src={img02} alt="" className="img-two" />
+              {/* <img src={img02} alt="" className="img-two" /> */}
             </div>
           </div>
           <div className="col-lg-6">
@@ -19,17 +19,15 @@ const WhoWeAre = (props) => {
               <div className="section-title mb-30">
                 <span className="sub-title">Who we are</span>
                 <h2 className="title">
-                  The World’s <span>1st ICO</span> Platform That Offers Rewards
+                  The <span>CLOUD</span> Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
                 </h2>
               </div>
               <p>
-                The World’s 1st ICO Platform That Offers Rewards and The
-                platform helps investors to make easy to purchase and sell their
-                tokens
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, vitae minus ab alias aliquid explicabo.
               </p>
-              <Link to="/" className="btn">
+              {/* <Link to="/" className="btn">
                 Purchase Tokens
-              </Link>
+              </Link> */}
             </div>
           </div>
         </div>

@@ -9,14 +9,15 @@ import WhitePaper from "../../components/WhitePaper/WhitePaper";
 import WhoWeAre from "../../components/WhoWeAre/WhoWeAre";
 import WhyChooseUs from "../../components/WhyChooseUs/WhyChooseUs";
 import LayoutOne from "../../layouts/LayoutOne";
+import About from "../../components/About/About";
 
 const Home = () => {
   return (
     <LayoutOne>
       <main className="fix">
         <Banner />
+        <About/>
         <WhoWeAre />
-
         <TopPartners />
         <WhyChooseUs />
         <Sales />

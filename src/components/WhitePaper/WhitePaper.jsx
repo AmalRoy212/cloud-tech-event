@@ -22,22 +22,20 @@ const WhitePaper = () => {
               data-wow-delay=".2s"
             >
               <div className="section-title mb-35">
-                <span className="sub-title">Whitepaper</span>
+                <span className="sub-title">Startup Pitch</span>
                 <h2 className="title">
-                  Read Bigtech <span>Documents</span>
+                Startup Pitch <span>Competition - Elevating</span> Startup To Success
                 </h2>
               </div>
 
               <ul className="document-list">
-                <li>White Paper</li>
-                <li>Privaci & Policy</li>
-                <li>Terms Of Coin Sale</li>
-                <li>One Pager</li>
+                <li>Stand a chance to win Genfinity credit valued at upto $9999</li>
+                <p>Starup Pitch Competition serves as a premier fundraising platform, catering to companies in various stages of development. Whether you are in the initial stages of launching your business or an established entity aiming for expansion, this platform offers an exclusive opportunity. Here, you can present your business propositions before a distinguished audience, comprising global investors such as venture capitalists, angel investors, and influential government authorities.</p>
               </ul>
 
-              <Link to="/" className="btn">
+              {/* <Link to="/" className="btn">
                 Download Doc
-              </Link>
+              </Link> */}
             </div>
           </div>
         </div>

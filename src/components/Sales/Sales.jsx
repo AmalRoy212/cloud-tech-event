@@ -5,12 +5,10 @@ import SalesTabContent from "./SalesTabContent";
 
 const Sales = () => {
   const chart_info_list = [
-    "Contingency: 70%",
-    "Business Development: 10%",
-    "Investor: 30%",
-    "Poland",
-    "Legal & Regulation:10%",
-    "Czech Republic",
+    "Schools: 70%",
+    "Government: 10%",
+    "Ministry of Education: 30%",
+    "Academics: 10%",
   ];
 
   return (
@@ -36,7 +34,7 @@ const Sales = () => {
               >
                 <ul className="nav nav-tabs" id="myTab" role="tablist">
                   <SalesTabButton
-                    title="Funding Allocation"
+                    title="Industries"
                     className="active"
                     id="funding-tab"
                     target="#funding"
@@ -45,7 +43,7 @@ const Sales = () => {
                   />
 
                   <SalesTabButton
-                    title="Token Allocation"
+                    title="By Job Title"
                     className=""
                     id="token-tab"
                     target="#token"
@@ -59,10 +57,8 @@ const Sales = () => {
                     className={"show active"}
                     id="funding"
                     ariaLabel="funding-tab"
-                    title="1 CNL = 0.0863 BTC"
-                    description=" The World’s 1st ICO Platform That Offers Rewards and The
-                    platform helps investors to make easy to purchase and
-                    sell their tokens"
+                    title="Lorem ipsum dolor sit"
+                    description=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore dolorum expedita earum incidunt quod ipsa aspernatur. Doloribus neque esse quis. "
                     link="/"
                   />
 
@@ -70,10 +66,8 @@ const Sales = () => {
                     className={""}
                     id="token"
                     ariaLabel="token-tab"
-                    title="2 CNL = 0.0967 BTC"
-                    description=" The World’s 1st ICO Platform That Offers Rewards and The
-                    platform helps investors to make easy to purchase and
-                    sell their tokens"
+                    title="Lorem ipsum dolor sit"
+                    description=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore dolorum expedita earum incidunt quod ipsa aspernatur. Doloribus neque esse quis. "
                     link="/"
                   />
                 </div>

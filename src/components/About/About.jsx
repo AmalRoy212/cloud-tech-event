@@ -13,7 +13,7 @@ const About = () => {
               className="about-img-two text-center wow fadeInLeft"
               data-wow-delay=".2s"
             >
-              <img src={aboutImg} alt="" />
+              <img src='https://th.bing.com/th/id/OIP.WqDreNz92-NWSDyoU6y1dwHaEj?w=281&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7' alt="" />
             </div>
           </div>
           <div className="col-lg-6">
@@ -22,37 +22,27 @@ const About = () => {
               data-wow-delay=".2s"
             >
               <div className="section-title section-title-two mb-15">
-                <span className="sub-title">ABOUT Crypto ICO</span>
+                <span className="sub-title">ABOUT</span>
                 <h2 className="title">
-                  Bigtech Theme is the best for your ICO
+                  Lorem ipsum dolor sit amet consectetur.
                 </h2>
               </div>
               <p>
-                The World’s 1st ICO Platform That Offers Rewards and The
-                platform helps investors to make easy
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id expedita aspernatur et iusto unde ut?
               </p>
               <div className="about-list">
                 <ul>
                   <li>
-                    <i className="fas fa-check"></i>Mouthwatering leading how
-                    real formula also
+                    <i className="fas fa-check"></i>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                   </li>
                   <li>
-                    <i className="fas fa-check"></i>Locked-in have can mountain
+                    <i className="fas fa-check"></i>Lorem ipsum dolor sit.
                     
                   </li>
                 </ul>
               </div>
 
-              <a
-                href={aboutImg}
-                download
-                target="_blank"
-                rel="noopener noreferrer"
-                className="btn btn-two"
-              >
-                Download Document
-              </a>
+    
             </div>
           </div>
         </div>

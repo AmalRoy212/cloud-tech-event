@@ -144,14 +144,14 @@ const HeaderOne = () => {
                     </ul>
                   </div>
                   <div className={cn("header-action", "d-none d-md-block")}>
-                    <ul>
+                    {/* <ul>
                      
                       <li className={"header-btn"}>
                         <Link to="#" className="btn">
                           Buy Now
                         </Link>
                       </li>
-                    </ul>
+                    </ul> */}
                   </div>
                 </nav>
               </div>

@@ -10,7 +10,7 @@ const TeamOneItem = (props) => {
         <h2 className="title">{props.item.name}</h2>
         <span>{props.item.designation}</span>
 
-        <ul className="team-social">
+        {/* <ul className="team-social">
           <li>
             <a href="/">
               <i className="fab fa-youtube"></i>
@@ -31,7 +31,7 @@ const TeamOneItem = (props) => {
               <i className="fab fa-instagram"></i>
             </a>
           </li>
-        </ul>
+        </ul> */}
       </div>
     </div>
   );

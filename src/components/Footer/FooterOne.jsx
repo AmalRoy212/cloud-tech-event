@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import logoImage from "../../../src/assets/img/logo/logo.png";
+import logoImage from "../../../src/assets/img/logo/GG_WHITE.webp";
 import { scrollToTop } from "../../lib/helpers";
 
 const FooterOne = () => {
@@ -28,29 +28,26 @@ const FooterOne = () => {
                     <img src={logoImage} alt="BigTech Logo" />
                   </Link>
                   <div className="footer-content">
-                    <p>
-                      A new way to make the payments easy, reliable and 100%
-                      secure. claritatem itamconse quat. Exerci tationulla
-                    </p>
+                  <h4 className="fw-title">Social Media</h4>
                     <ul className="footer-social">
                       <li>
-                        <a href="#">
-                          <i className="fab fa-youtube"></i>
+                        <a href="https://www.instagram.com/genfinityglobal/">
+                          <i className="fab fa-instagram"></i>
                         </a>
                       </li>
                       <li>
-                        <a href="#">
+                        <a href="https://twitter.com/GenfinityGlobal">
                           <i className="fab fa-twitter"></i>
                         </a>
                       </li>
                       <li>
-                        <a href="#">
-                          <i className="fab fa-facebook-f"></i>
+                        <a href="https://www.linkedin.com/company/genfinity-global/mycompany/">
+                          <i className="fab fa-linkedin"></i>
                         </a>
                       </li>
                       <li>
-                        <a href="#">
-                          <i className="fab fa-skype"></i>
+                        <a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcRzCbfQHLkWsGSMNcQlnnCFFZXPJTRxqnVJcshVbnVhlZgPqCdzQFDJFKtXZDxflHWfLgnnD">
+                          <i className="fab fa-google-plus"></i>
                         </a>
                       </li>
                     </ul>
@@ -69,14 +66,14 @@ const FooterOne = () => {
                         <Link to="/">Contact us</Link>
                       </li>
                       <li>
-                        <Link to="/">How it Works</Link>
+                        <Link to="/">About Us</Link>
                       </li>
-                      <li>
+                      {/* <li>
                         <Link to="/">Create</Link>
                       </li>
                       <li>
                         <Link to="/">Explore</Link>
-                      </li>
+                      </li> */}
                       <li>
                         <Link to="/">Terms & Services</Link>
                       </li>
@@ -98,7 +95,7 @@ const FooterOne = () => {
                       <li>
                         <Link to="/">Partners</Link>
                       </li>
-                      <li>
+                      {/* <li>
                         <Link to="/">Suggestions</Link>
                       </li>
                       <li>
@@ -106,7 +103,7 @@ const FooterOne = () => {
                       </li>
                       <li>
                         <Link to="/">Newsletters</Link>
-                      </li>
+                      </li> */}
                     </ul>
                   </div>
                 </div>
@@ -116,20 +113,16 @@ const FooterOne = () => {
                   className="footer-widget wow fadeInUp"
                   data-wow-delay=".8s"
                 >
-                  <h4 className="fw-title">Subscribe Newsletter</h4>
+                  <h4 className="fw-title">Contact</h4>
                   <div className="footer-newsletter">
-                    <p>
-                      Exerci tation ullamcorper suscipit lobortis nisl aliquip
-                      ex ea commodo
-                    </p>
                     <form action="#">
                       <input
                         type="email"
-                        placeholder="Info@gmail.com"
+                        placeholder="info@genfinityglobal.com"
                         required
                       />
                       <button type="submit">
-                        <i className="fas fa-paper-plane"></i>
+                        <i className="fas fa-share"></i>
                       </button>
                     </form>
                   </div>
@@ -138,25 +131,10 @@ const FooterOne = () => {
             </div>
           </div>
           <div className="footer-bottom">
-            <div className="row align-items-center">
+            <div className="row flex items-center">
               <div className="col-lg-6">
                 <div className="copyright-text">
-                  <p>Copyright &copy; 2022. All Rights Reserved Bigtech</p>
-                </div>
-              </div>
-              <div className="col-lg-6 d-none d-sm-block">
-                <div className="footer-menu">
-                  <ul>
-                    <li>
-                      <Link to="#">Terms and conditions</Link>
-                    </li>
-                    <li>
-                      <Link to="#">Privacy policy</Link>
-                    </li>
-                    <li>
-                      <Link to="#">Login / Signup</Link>
-                    </li>
-                  </ul>
+                  <p >Copyright &copy; 2024. All Rights Reserved Genfinity Global</p>
                 </div>
               </div>
             </div>

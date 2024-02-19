@@ -8,7 +8,7 @@ const ContactOne = () => {
       icon: "fa-envelope",
       content: (
         <>
-          company@gmail.com <br /> infoweb@gmail.com
+          info@genfinityglobal.com
         </>
       ),
     },
@@ -16,9 +16,8 @@ const ContactOne = () => {
       icon: "fa-phone",
       content: (
         <>
-          +84 0977425031
-          <br /> +998 765 775 34
-        </>
+          +91 9999999999
+          <br /> +91 777777777       </>
       ),
     },
     {
@@ -26,7 +25,7 @@ const ContactOne = () => {
       content: (
         <>
           State/province/area: <br />
-          Georgia 198
+          Bengaluru
         </>
       ),
     },
@@ -41,7 +40,7 @@ const ContactOne = () => {
             <div className="section-title text-center mb-70">
               <span className="sub-title">Contact</span>
               <h2 className="title">
-                <span>Contact</span> ICO Crypto
+                <span>Contact</span> us
               </h2>
             </div>
           </div>
@@ -59,7 +58,7 @@ const ContactOne = () => {
         </div>
 
         {/* section form */}
-        <ContactOneForm />
+        {/* <ContactOneForm /> */}
       </div>
     </section>
   );

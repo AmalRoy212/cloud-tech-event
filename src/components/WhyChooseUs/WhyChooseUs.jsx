@@ -55,50 +55,50 @@ const WhyChooseUs = () => {
       src: icon01,
       alt: "",
       link: "/",
-      title: "Mobile payment make easy",
-      description: "Add new, trending and rare artwork to your collection.",
+      title: "Lorem ipsum dolor sit amet",
+      description: "Lorem ipsum dolor sit amet mhvd jaefv hvhj hvj.",
     },
     {
       src: icon02,
       alt: "",
       link: "/",
-      title: "Lifetime free transaction",
-      description: "Add new, trending and rare artwork to your collection.",
+      title: "Lorem ipsum dolor sit amet",
+      description: "orem ipsum dolor sit amet mhvd jaefv hvhj hvj.",
     },
     {
       src: icon03,
       alt: "",
       link: "/",
-      title: <>Protect the identity</>,
-      description: "Add new, trending and rare artwork to your collection.",
+      title: "<>Protect the identity</>",
+      description: "orem ipsum dolor sit amet mhvd jaefv hvhj hvj.",
     },
     {
       src: icon04,
       alt: "",
       link: "/",
-      title: "Sercurity & control over money",
-      description: "Add new, trending and rare artwork to your collection.",
+      title: "Lorem ipsum dolor sit amet",
+      description: "orem ipsum dolor sit amet mhvd jaefv hvhj hvj.",
     },
     {
       src: icon01,
       alt: "",
       link: "/",
-      title: "Lifetime free transaction",
-      description: "Add new, trending and rare artwork to your collection.",
+      title: "Lorem ipsum dolor sit amet",
+      description: "orem ipsum dolor sit amet mhvd jaefv hvhj hvj.",
     },
     {
       src: icon03,
       alt: "",
       link: "/",
-      title: <>Protect the identity</>,
-      description: "Add new, trending and rare artwork to your collection.",
+      title: "Lorem ipsum dolor sit amet",
+      description: "orem ipsum dolor sit amet mhvd jaefv hvhj hvj.",
     },
     {
       src: icon04,
       alt: "",
       link: "/",
-      title: "Sercurity & control over money",
-      description: "Add new, trending and rare artwork to your collection.",
+      title: "Lorem ipsum dolor sit amet",
+      description: "orem ipsum dolor sit amet mhvd jaefv hvhj hvj.",
     },
   ];
 
@@ -123,7 +123,7 @@ const WhyChooseUs = () => {
             <div className="section-title text-center mb-50">
               <span className="sub-title">why Choose us </span>
               <h2 className="title">
-                Why choose our bigtech <span>Token</span>
+                Why choose our <span> CLOUD</span>
               </h2>
             </div>
           </div>

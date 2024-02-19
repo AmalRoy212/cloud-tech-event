@@ -25,7 +25,7 @@ const Banner = (props) => {
           
               </h2>
             </div>
-            <div className="banner-progress-wrap">
+            {/* <div className="banner-progress-wrap">
               <ul>
                 <li>Pre Sell</li>
                 <li>Soft Cap</li>
@@ -44,13 +44,13 @@ const Banner = (props) => {
               <h4 className="title">
                 65% target raised <span>1 ETH = $100088 = 3177.38 CIC updated</span>
               </h4>
-            </div>
+            </div> */}
           </div>
         </div>
         <div className="row justify-content-center">
           <div className="col-xl-10">
             <div className="banner-countdown-wrap text-center">
-              <h2 className="title">ICO Will Start In...</h2>
+              <h2 className="title">Will Start In...</h2>
 
               <CountDownOne />
             </div>

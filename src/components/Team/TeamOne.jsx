@@ -13,43 +13,43 @@ const TeamOne = () => {
   const team_members = [
     {
       src: img01,
-      name: "Cameron Williamson",
-      designation: "Founder & CO",
+      name: "orem ipsum",
+      designation: "ABC",
     },
     {
       src: img02,
-      name: "Eleanor Pena",
-      designation: "Head of Design",
+      name: "orem ipsum",
+      designation: "ABC",
     },
     {
       src: img03,
-      name: "Bessie Cooper",
-      designation: "Vp People",
+      name: "orem ipsum",
+      designation: "ABC",
     },
     {
       src: img04,
-      name: "Darlene Robertson",
-      designation: "Product Manager",
+      name: "orem ipsum",
+      designation: "ABC",
     },
     {
       src: img05,
-      name: "Jacob Jones",
-      designation: "Marketer",
+      name: "orem ipsum",
+      designation: "ABC",
     },
     {
       src: img06,
-      name: "Courtney Henry",
-      designation: "Founder",
+      name: "orem ipsum",
+      designation: "ABC",
     },
     {
       src: img07,
-      name: "Ronald Richards",
-      designation: "Account Manager",
+      name: "orem ipsum",
+      designation: "ABC",
     },
     {
       src: img08,
-      name: "Theresa Webb",
-      designation: "Founder & CO",
+      name: "orem ipsum",
+      designation: "ABC",
     },
   ];
 
@@ -59,9 +59,9 @@ const TeamOne = () => {
         <div className="row justify-content-center">
           <div className="col-xl-6">
             <div className="section-title text-center mb-70">
-              <span className="sub-title">OUr team</span>
+              <span className="sub-title">topics</span>
               <h2 className="title">
-                The Leadership <br /> <span>Team</span>
+                Key Topics<br /> <span>Of Discussion</span>
               </h2>
             </div>
           </div>

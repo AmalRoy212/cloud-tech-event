@@ -13,9 +13,9 @@ const SalesTabContent = (props) => {
       <div className="chart-content-inner">
         <h2 className="title">{props.title}</h2>
         <p>{props.description}</p>
-        <Link to={props.link} className="btn">
+        {/* <Link to={props.link} className="btn">
           Buy Now
-        </Link>
+        </Link> */}
       </div>
     </div>
   );
