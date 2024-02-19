@@ -1,7 +1,7 @@
 import React from "react";
-import aboutImg from "../../assets/img/images/h2_about_img.png";
-import shape01 from "../../assets/img/images/about_shape01.png";
-import shape02 from "../../assets/img/images/about_shape02.png";
+import aboutImg from "../../assets/img/images/about-cloud.png";
+import shape01 from "../../assets/img/images/small-cloud.png";
+import shape02 from "../../assets/img/images/small-cloud2.png";
 
 const About = () => {
   return (
@@ -13,7 +13,7 @@ const About = () => {
               className="about-img-two text-center wow fadeInLeft"
               data-wow-delay=".2s"
             >
-              <img src='https://th.bing.com/th/id/OIP.WqDreNz92-NWSDyoU6y1dwHaEj?w=281&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7' alt="" />
+              <img src={aboutImg} alt="" />
             </div>
           </div>
           <div className="col-lg-6">
@@ -22,7 +22,7 @@ const About = () => {
               data-wow-delay=".2s"
             >
               <div className="section-title section-title-two mb-15">
-                <span className="sub-title">ABOUT</span>
+                <span className="sub-title"></span>
                 <h2 className="title">
                   Lorem ipsum dolor sit amet consectetur.
                 </h2>

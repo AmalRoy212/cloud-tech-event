@@ -16,15 +16,14 @@ const ContactOne = () => {
       icon: "fa-phone",
       content: (
         <>
-          +91 9999999999
-          <br /> +91 777777777       </>
+          +91 6363010980
+        </>
       ),
     },
     {
       icon: "fa-map-marker-alt",
       content: (
         <>
-          State/province/area: <br />
           Bengaluru
         </>
       ),

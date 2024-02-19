@@ -69,7 +69,7 @@ const WhyChooseUs = () => {
       src: icon03,
       alt: "",
       link: "/",
-      title: "<>Protect the identity</>",
+      title: "Lorem ipsum dolor sit amet",
       description: "orem ipsum dolor sit amet mhvd jaefv hvhj hvj.",
     },
     {
@@ -121,9 +121,9 @@ const WhyChooseUs = () => {
         <div className="row justify-content-center">
           <div className="col-xl-6">
             <div className="section-title text-center mb-50">
-              <span className="sub-title">why Choose us </span>
+              <span className="sub-title">why should</span>
               <h2 className="title">
-                Why choose our <span> CLOUD</span>
+                Why should <span> Attend</span>
               </h2>
             </div>
           </div>

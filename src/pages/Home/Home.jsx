@@ -16,9 +16,9 @@ const Home = () => {
     <LayoutOne>
       <main className="fix">
         <Banner />
-        <About/>
         <WhoWeAre />
-        <TopPartners />
+        <About/>
+        {/* <TopPartners /> */}
         <WhyChooseUs />
         <Sales />
 
