@@ -28,7 +28,7 @@ const Home = () => {
         </div>
 
         <TeamOne />
-        <ContactOne />
+        {/* <ContactOne /> */}
       </main>
     </LayoutOne>
   );
