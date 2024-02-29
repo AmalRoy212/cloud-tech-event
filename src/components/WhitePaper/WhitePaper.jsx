@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import docImg from "../../assets/img/images/document_img.png";
+import docImg from "../../assets/img/images/startup.png";
 
 const WhitePaper = () => {
   return (

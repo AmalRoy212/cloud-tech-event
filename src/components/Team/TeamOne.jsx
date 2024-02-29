@@ -1,5 +1,5 @@
 import React from "react";
-import img01 from "../../assets/img/team/team_img01.png";
+import img01 from "../../assets/img/team/anatomy.png";
 import img02 from "../../assets/img/team/team_img02.png";
 import img03 from "../../assets/img/team/team_img03.png";
 import img04 from "../../assets/img/team/team_img04.png";
@@ -17,37 +17,37 @@ const TeamOne = () => {
       designation: "ABC",
     },
     {
-      src: img02,
+      src: img01,
       name: "orem ipsum",
       designation: "ABC",
     },
     {
-      src: img03,
+      src: img01,
       name: "orem ipsum",
       designation: "ABC",
     },
     {
-      src: img04,
+      src: img01,
       name: "orem ipsum",
       designation: "ABC",
     },
     {
-      src: img05,
+      src: img01,
       name: "orem ipsum",
       designation: "ABC",
     },
     {
-      src: img06,
+      src: img01,
       name: "orem ipsum",
       designation: "ABC",
     },
     {
-      src: img07,
+      src: img01,
       name: "orem ipsum",
       designation: "ABC",
     },
     {
-      src: img08,
+      src: img01,
       name: "orem ipsum",
       designation: "ABC",
     },

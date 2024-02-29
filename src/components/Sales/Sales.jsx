@@ -1,5 +1,5 @@
 import React from "react";
-import chartImg from "../../assets/img/images/chart.png";
+import chartImg from "../../assets/img/images/industry.jpg";
 import SalesTabButton from "./SalesTabButton";
 import SalesTabContent from "./SalesTabContent";
 
