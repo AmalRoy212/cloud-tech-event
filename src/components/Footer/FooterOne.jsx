@@ -28,26 +28,26 @@ const FooterOne = () => {
                     <img src={logoImage} alt="BigTech Logo" />
                   </Link>
                   <div className="footer-content">
-                  <h4 className="fw-title">Social Media</h4>
+                    <h4 className="fw-title">Social Media</h4>
                     <ul className="footer-social">
                       <li>
-                        <a href="https://www.instagram.com/genfinityglobal/">
+                        <a target="_blank" href="https://www.instagram.com/genfinityglobal/">
                           <i className="fab fa-instagram"></i>
                         </a>
                       </li>
                       <li>
-                        <a href="https://twitter.com/GenfinityGlobal">
+                        <a target="_blank" href="https://twitter.com/GenfinityGlobal">
                           <i className="fab fa-twitter"></i>
                         </a>
                       </li>
                       <li>
-                        <a href="https://www.linkedin.com/company/genfinity-global/mycompany/">
+                        <a target="_blank" href="https://www.linkedin.com/company/genfinity-global/mycompany/">
                           <i className="fab fa-linkedin"></i>
                         </a>
                       </li>
                       <li>
-                        <a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcRzCbfQHLkWsGSMNcQlnnCFFZXPJTRxqnVJcshVbnVhlZgPqCdzQFDJFKtXZDxflHWfLgnnD">
-                          <i className="fab fa-google-plus"></i>
+                        <a target="_blank" href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=GTvVlcSHvnsNFMpZbxSxsppsSVxRSZvTtzQhMLDpFTCzfHdVWZFdspgxnSSbgmPsPRcBLxqsmJdWT">
+                          <i class="fab fa-google-plus"></i>
                         </a>
                       </li>
                     </ul>
@@ -130,15 +130,18 @@ const FooterOne = () => {
               </div>
             </div>
           </div>
-          <div className="footer-bottom">
-            <div className="row flex items-center">
-              <div className="col-lg-6">
-                <div className="copyright-text">
-                  <p >Copyright &copy; 2024. All Rights Reserved Genfinity Global</p>
-                </div>
-              </div>
+          <div class="footer-bottom d-flex justify-content-center">
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="copyright-text">
+                <p>
+                    Copyright &copy; 2024. All Rights Reserved Genfinity Global
+                </p>
             </div>
-          </div>
+        </div>
+    </div>
+</div>
+
         </div>
       </div>
     </footer>
