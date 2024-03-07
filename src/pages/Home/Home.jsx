@@ -1,6 +1,5 @@
 import React from "react";
 import Banner from "../../components/Banner/Banner";
-import ContactOne from "../../components/Contact/ContactOne";
 // import Roadmap from "../../components/Roadmap/Roadmap";
 import Sales from "../../components/Sales/Sales";
 import TeamOne from "../../components/Team/TeamOne";
