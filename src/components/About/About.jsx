@@ -23,22 +23,39 @@ const About = () => {
             >
               <div className="section-title section-title-two mb-15">
                 <span className="sub-title"></span>
-                <h2 className="title">
-                  Lorem ipsum dolor sit amet consectetur.
+                <h2 className="title" style={{color:"white"}}>
+                  Why Oman
                 </h2>
               </div>
-              <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id expedita aspernatur et iusto unde ut?
-              </p>
+              {/* <p>
+                WHY OMAN
+              </p> */}
               <div className="about-list">
                 <ul>
                   <li>
-                    <i className="fas fa-check"></i>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    <i className="fas fa-check"></i>
+                    <div className="text-white">
+                    Projected Data Centre Market Reach $60.12 M in 2024
+                    </div>
                   </li>
                   <li>
-                    <i className="fas fa-check"></i>Lorem ipsum dolor sit.
-                    
+                    <i className="fas fa-check"></i>
+                    <div className="text-white">
+                    Projected Network Infrastructure Market Reach $37.96 M in 2024
+                    </div>
                   </li>
+                    <li>
+                      <i className="fas fa-check"></i>
+                      <div className="text-white">
+                      Annual Growth Rate (CAGR 2024-2028) of 6.02%
+                      </div>
+                    </li>
+                    <li>
+                      <i className="fas fa-check"></i>
+                      <div className="text-white">
+                      Resulting in a Market Volume of $75.95 M by 2028
+                      </div>
+                    </li>
                 </ul>
               </div>
 

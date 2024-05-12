@@ -55,7 +55,7 @@ const FooterOne = () => {
                 </div>
               </div>
               <div className="col-xl-3 col-lg-5 col-sm-6">
-                <div
+                {/* <div
                   className="footer-widget  wow fadeInUp"
                   data-wow-delay=".4s"
                 >
@@ -68,21 +68,15 @@ const FooterOne = () => {
                       <li>
                         <Link to="/">About Us</Link>
                       </li>
-                      {/* <li>
-                        <Link to="/">Create</Link>
-                      </li>
-                      <li>
-                        <Link to="/">Explore</Link>
-                      </li> */}
                       <li>
                         <Link to="/">Terms & Services</Link>
                       </li>
                     </ul>
                   </div>
-                </div>
+                </div> */}
               </div>
               <div className="col-xl-2 col-lg-3 col-sm-6">
-                <div
+                {/* <div
                   className="footer-widget wow fadeInUp"
                   data-wow-delay=".6s"
                 >
@@ -95,18 +89,9 @@ const FooterOne = () => {
                       <li>
                         <Link to="/">Partners</Link>
                       </li>
-                      {/* <li>
-                        <Link to="/">Suggestions</Link>
-                      </li>
-                      <li>
-                        <Link to="/">Blog</Link>
-                      </li>
-                      <li>
-                        <Link to="/">Newsletters</Link>
-                      </li> */}
                     </ul>
                   </div>
-                </div>
+                </div> */}
               </div>
               <div className="col-xl-4 col-lg-4 col-md-6">
                 <div

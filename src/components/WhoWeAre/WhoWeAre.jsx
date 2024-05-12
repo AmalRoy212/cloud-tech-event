@@ -19,15 +19,12 @@ const WhoWeAre = (props) => {
               <div className="section-title mb-30">
                 {/* <span className="sub-title">Who we are</span> */}
                 <h2 className="title">
-                  About The<span>Conference</span> 
+                  About The<span> Conference</span> 
                 </h2>
               </div>
               <p className="text-justify">
-              space are truly the backbone of society. At the Future Education Summit, we bring them together under one roof, understand innovations that can help them simplify and improve the education transmittal process. Which will include strategies to engage teacher and students in solving significant problems through EdTech. Future Education Summit will offer world-class content and spotlights effective strategies that will power the pedagogical education models of the 21st century by attracting the most dynamic leaders in the education sector and promises to bring fresh insights and perspectives to empower, inspire, and enrich the global learning community Future Education Summit aspires to offer stage to education .
+              The Cloud & Data Centre Conference is a premier event tailored for the innovators, decision-makers, and experts in data centre infrastructure and cloud technologies. As part of the global series of conferences dedicated to advancing digital transformation, this edition is strategically located in Oman, bringing together the region's top CIOs, CTOs, COOs, Heads of Cloud, Heads of IT Infrastructure, Head of Data Centre Operations - IT Data Centre Administrator, DevOps Leaders, Heads of Digital Transformation/Innovation, and Cloud Computing Experts from various sectors across India, all converging 'under one roof.'This event will showcase enlightening keynotes, insightful government and enterprise use-case presentations, immersive product showcases & demos, dynamic panel discussions, and tech talks, providing a comprehensive exploration of the latest trends and challenges in cloud technology and data centre operations.
               </p>
-              {/* <Link to="/" className="btn">
-                Purchase Tokens
-              </Link> */}
             </div>
           </div>
         </div>

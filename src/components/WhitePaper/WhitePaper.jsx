@@ -22,20 +22,17 @@ const WhitePaper = () => {
               data-wow-delay=".2s"
             >
               <div className="section-title mb-35">
-                <span className="sub-title">Startup Pitch</span>
+                <span className="sub-title">ROUNDTABLE</span>
                 <h2 className="title">
-                Startup Pitch <span>Competition - Elevating</span> Startup To Success
+                The Executive <span>Roundtable</span> Dialogue
                 </h2>
               </div>
 
               <ul className="document-list">
-                <li>Stand a chance to win Genfinity credit valued at upto $9999</li>
-                <p>Starup Pitch Competition serves as a premier fundraising platform, catering to companies in various stages of development. Whether you are in the initial stages of launching your business or an established entity aiming for expansion, this platform offers an exclusive opportunity. Here, you can present your business propositions before a distinguished audience, comprising global investors such as venture capitalists, angel investors, and influential government authorities.</p>
+                {/* <li>Stand a chance to win Genfinity credit valued at upto $9999</li> */}
+                <p>The Executive Roundtable Discussion at our conference serves as a paramount platform for top-level decision-makers to converge and engage in high-level strategic dialogues. This exclusive session brings together C-suite executives, industry leaders, and visionaries to explore critical issues, share insights, and chart the course for the future of the industry. With a focus on fostering collaboration and driving innovation, the Executive Roundtable promises to deliver thought-provoking discussions, actionable insights, and unparalleled networking opportunities.</p>
               </ul>
 
-              {/* <Link to="/" className="btn">
-                Download Doc
-              </Link> */}
             </div>
           </div>
         </div>

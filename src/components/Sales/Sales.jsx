@@ -52,13 +52,145 @@ const Sales = () => {
                   />
                 </ul>
 
-                <div className="tab-content" id="myTabContent">
+                <div className="tab-content" style={{ backgroundColor: "black", padding: "10px", borderRadius:"10px" }} id="myTabContent">
                   <SalesTabContent
                     className={"show active"}
                     id="funding"
                     ariaLabel="funding-tab"
-                    title="Lorem ipsum dolor sit"
-                    description=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore dolorum expedita earum incidunt quod ipsa aspernatur. Doloribus neque esse quis. "
+                    title="Who should attend?"
+                    description={
+                      <div className="about-list">
+                        <ul>
+                          <li style={{ display: "flex", alignItems: "center", gap: "10px" }}>
+                            <i className="fas fa-check"></i>
+                            <div className="text-white">
+                              Chief Information Officer
+                            </div>
+                          </li>
+                          <li style={{ display: "flex", alignItems: "center", gap: "10px" }}>
+                            <i className="fas fa-check"></i>
+                            <div className="text-white">
+                             Chief Technology Officer/Director
+                            </div>
+                          </li>
+                          <li style={{ display: "flex", alignItems: "center", gap: "10px" }}>
+                            <i className="fas fa-check"></i>
+                            <div className="text-white">
+                            Chief Information Security Officer
+                            </div>
+                          </li>
+                          <li style={{ display: "flex", alignItems: "center", gap: "10px" }}>
+                            <i className="fas fa-check"></i>
+                            <div className="text-white">
+                            Chief Data Officers
+                            </div>
+                          </li>
+                          <li style={{ display: "flex", alignItems: "center", gap: "10px" }}>
+                            <i className="fas fa-check"></i>
+                            <div className="text-white">
+                            Chief Analytics Officers
+                            </div>
+                          </li>
+                          <li style={{ display: "flex", alignItems: "center", gap: "10px" }}>
+                            <i className="fas fa-check"></i>
+                            <div className="text-white">
+                            Chief Data and Analytics Officers
+                            </div>
+                          </li>
+                          <li style={{ display: "flex", alignItems: "center", gap: "10px" }}>
+                            <i className="fas fa-check"></i>
+                            <div className="text-white">
+                            Chief Digital Officers
+                            </div>
+                          </li>
+                          <li style={{ display: "flex", alignItems: "center", gap: "10px" }}>
+                            <i className="fas fa-check"></i>
+                            <div className="text-white">
+                            Chief Operating Officers/Directors
+                            </div>
+                          </li>
+                          <li style={{ display: "flex", alignItems: "center", gap: "10px" }}>
+                            <i className="fas fa-check"></i>
+                            <div className="text-white">
+                            Heads Of Digital & Strategy
+                            </div>
+                          </li>
+                          <li style={{ display: "flex", alignItems: "center", gap: "10px" }}>
+                            <i className="fas fa-check"></i>
+                            <div className="text-white">
+                            Datacentre Facilities Managers & Engineers
+                            </div>
+                          </li>
+                          <li style={{ display: "flex", alignItems: "center", gap: "10px" }}>
+                            <i className="fas fa-check"></i>
+                            <div className="text-white">
+                            Security Managers/Directors
+                            </div>
+                          </li>
+                          <li style={{ display: "flex", alignItems: "center", gap: "10px" }}>
+                            <i className="fas fa-check"></i>
+                            <div className="text-white">
+                            Information Technology & Infrastructure Managers
+                            </div>
+                          </li>
+                          <li style={{ display: "flex", alignItems: "center", gap: "10px" }}>
+                            <i className="fas fa-check"></i>
+                            <div className="text-white">
+                            Datacentre Managers/Directors
+                            </div>
+                          </li>
+                          <li style={{ display: "flex", alignItems: "center", gap: "10px" }}>
+                            <i className="fas fa-check"></i>
+                            <div className="text-white">
+                            Cloud Architects/Officers
+                            </div>
+                          </li>
+                          <li style={{ display: "flex", alignItems: "center", gap: "10px" }}>
+                            <i className="fas fa-check"></i>
+                            <div className="text-white">
+                            Data Warehouse Manager
+                            </div>
+                          </li>
+                          <li style={{ display: "flex", alignItems: "center", gap: "10px" }}>
+                            <i className="fas fa-check"></i>
+                            <div className="text-white">
+                            Network Admin & Storage Planners/Officers
+                            </div>
+                          </li>
+                          <li style={{ display: "flex", alignItems: "center", gap: "10px" }}>
+                            <i className="fas fa-check"></i>
+                            <div className="text-white">
+                            Database Administrators
+                            </div>
+                          </li>
+                          <li style={{ display: "flex", alignItems: "center", gap: "10px" }}>
+                            <i className="fas fa-check"></i>
+                            <div className="text-white">
+                            Data Architect/Officers
+                            </div>
+                          </li>
+                          <li style={{ display: "flex", alignItems: "center", gap: "10px" }}>
+                            <i className="fas fa-check"></i>
+                            <div className="text-white">
+                            Business Intelligence (BI) Managers
+                            </div>
+                          </li>
+                          <li style={{ display: "flex", alignItems: "center", gap: "10px" }}>
+                            <i className="fas fa-check"></i>
+                            <div className="text-white">
+                            Data Quality Manager
+                            </div>
+                          </li>
+                          <li style={{ display: "flex", alignItems: "center", gap: "10px" }}>
+                            <i className="fas fa-check"></i>
+                            <div className="text-white">
+                            Data Governance Managers
+                            </div>
+                          </li>
+
+                        </ul>
+                      </div>
+                    }
                     link="/"
                   />
 
@@ -66,7 +198,7 @@ const Sales = () => {
                     className={""}
                     id="token"
                     ariaLabel="token-tab"
-                    title="Lorem ipsum dolor sit"
+                    title="Who should attend?"
                     description=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore dolorum expedita earum incidunt quod ipsa aspernatur. Doloribus neque esse quis. "
                     link="/"
                   />

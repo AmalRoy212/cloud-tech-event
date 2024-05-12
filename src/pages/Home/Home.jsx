@@ -17,17 +17,13 @@ const Home = () => {
         <Banner />
         <WhoWeAre />
         <About/>
-        {/* <TopPartners /> */}
+        <TopPartners />
         <WhyChooseUs />
-        <Sales />
-
+        {/* <Sales /> */}
         <div className="area-bg">
-          {/* <Roadmap /> */}
           <WhitePaper />
         </div>
-
         <TeamOne />
-        {/* <ContactOne /> */}
       </main>
     </LayoutOne>
   );
