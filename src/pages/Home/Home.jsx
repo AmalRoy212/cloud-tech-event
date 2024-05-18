@@ -9,6 +9,8 @@ import WhyChooseUs from "../../components/WhyChooseUs/WhyChooseUs";
 import LayoutOne from "../../layouts/LayoutOne";
 import About from "../../components/About/About";
 import { ExtraCards } from "../../components/Counter/ExtraCards";
+import OrganizedBy from "../../components/Ender/Closer";
+import ListProvider from "../../components/Sales/ListProvider";
 
 const Home = () => {
   return (
@@ -20,11 +22,13 @@ const Home = () => {
         <TopPartners />
         <ExtraCards />
         {/* <WhyChooseUs /> */}
+        <ListProvider/>
         <Sales />
         <div className="area-bg">
           <WhitePaper />
         </div>
         <TeamOne />
+        <OrganizedBy/>
       </main>
     </LayoutOne>
   );

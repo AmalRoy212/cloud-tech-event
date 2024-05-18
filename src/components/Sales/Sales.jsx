@@ -2,7 +2,8 @@ import React from "react";
 import chartImg from "../../assets/img/images/industry.jpg";
 import SalesTabButton from "./SalesTabButton";
 import SalesTabContent from "./SalesTabContent";
-import List from "./List";
+import CircularProgress from "../Progress/CircularProgress";
+import LineProgress from "../Progress/LineProgress";
 
 const Sales = () => {
   const chart_info_list = [
@@ -16,8 +17,8 @@ const Sales = () => {
     <section id="sales" className="chart-area chart-bg ">
       <div className="container">
         <div className="chart-inner">
-          {/* <div className="row align-items-center justify-content-center"> */}
-            {/* <div className="col-lg-6 col-md-10 order-0 order-lg-2">
+          <div className="row align-items-center justify-content-center">
+            <div className="col-lg-6 col-md-10 order-0 order-lg-2">
               <div className="chart-wrap wow fadeInRight" data-wow-delay=".2s">
                 <img src={chartImg} alt="" />
                 <ul>
@@ -26,14 +27,14 @@ const Sales = () => {
                   ))}
                 </ul>
               </div>
-            </div> */}
+            </div>
 
             <div className="col-lg-6 col-md-10">
               <div
                 className="chart-content wow fadeInLeft"
                 data-wow-delay=".2s"
               >
-                {/* <ul className="nav nav-tabs" id="myTab" role="tablist">
+                <ul className="nav nav-tabs" id="myTab" role="tablist">
                   <SalesTabButton
                     title="Industries"
                     className="active"
@@ -51,7 +52,7 @@ const Sales = () => {
                     ariaControls="token"
                     ariaSelected={false}
                   />
-                </ul> */}
+                </ul>
 
                 <div className="tab-content"  style={{ backgroundColor: "black", padding: "10px", borderRadius:"10px" }} id="myTabContent">
                   <SalesTabContent
@@ -59,9 +60,7 @@ const Sales = () => {
                     id="funding"
                     ariaLabel="funding-tab"
                     description={
-                      <div style={{display:"fl"}} >
-                        
-                      </div>
+                      <LineProgress number={80}/>
                     }
                     link="/"
                   />
@@ -70,14 +69,16 @@ const Sales = () => {
                     className={""}
                     id="token"
                     ariaLabel="token-tab"
-                    title="Who should attend?"
-                    description=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore dolorum expedita earum incidunt quod ipsa aspernatur. Doloribus neque esse quis. "
+                    title=""
+                    description={
+                      <LineProgress number={60} />
+                    }
                     link="/"
                   />
                 </div>
               </div>
             </div>
-            
+          </div>
           </div>
         </div>
       {/* </div> */}
