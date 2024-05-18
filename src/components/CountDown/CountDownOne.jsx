@@ -2,24 +2,16 @@ import React from "react";
 import Countdown from "react-countdown";
 
 const CountDownOne = () => {
+  // Target date: December 4th, 2024
+  const targetDate = new Date("2024-12-04T00:00:00");
+
   // Renderer callback with condition
   const renderer = ({ days, hours, minutes, seconds, completed }) => {
     if (completed) {
       return (
-        <>
-          <div className="time-count day">
-            <span>{"00"}</span>Days
-          </div>
-          <div className="time-count hour">
-            <span>{"00"}</span>hour
-          </div>
-          <div className="time-count min">
-            <span>{"00"}</span>minute
-          </div>
-          <div className="time-count sec">
-            <span>{"00"}</span>second
-          </div>
-        </>
+        <div className="event-message">
+          The event is going on!
+        </div>
       );
     } else {
       return (
@@ -28,13 +20,13 @@ const CountDownOne = () => {
             <span>{days < 10 ? "0" + days : days}</span>Days
           </div>
           <div className="time-count hour">
-            <span>{hours < 10 ? "0" + hours : hours}</span>hour
+            <span>{hours < 10 ? "0" + hours : hours}</span>Hours
           </div>
           <div className="time-count min">
-            <span>{minutes < 10 ? "0" + minutes : minutes}</span>minute
+            <span>{minutes < 10 ? "0" + minutes : minutes}</span>Minutes
           </div>
           <div className="time-count sec">
-            <span>{seconds < 10 ? "0" + seconds : seconds}</span>second
+            <span>{seconds < 10 ? "0" + seconds : seconds}</span>Seconds
           </div>
         </>
       );
@@ -43,7 +35,7 @@ const CountDownOne = () => {
 
   return (
     <div className="coming-time">
-      <Countdown date={Date.now() + 5000000} renderer={renderer} />
+      <Countdown date={targetDate} renderer={renderer} />
     </div>
   );
 };
