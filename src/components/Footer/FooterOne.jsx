@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import logoImage from "../../../src/assets/img/logo/GG_WHITE.webp";
+import logoImage from "../../../src/assets/logo/dits.png";
 import { scrollToTop } from "../../lib/helpers";
 
 const FooterOne = () => {
@@ -25,9 +25,9 @@ const FooterOne = () => {
                   data-wow-delay=".2s"
                 >
                   <Link to="/" className="f-logo">
-                    <img src={logoImage} alt="BigTech Logo" />
+                    <img style={{width:"100px"}} src={logoImage} alt="BigTech Logo" />
                   </Link>
-                  <div className="footer-content">
+                  {/* <div className="footer-content">
                     <h4 className="fw-title">Social Media</h4>
                     <ul className="footer-social">
                       <li>
@@ -51,7 +51,7 @@ const FooterOne = () => {
                         </a>
                       </li>
                     </ul>
-                  </div>
+                  </div> */}
                 </div>
               </div>
               <div className="col-xl-3 col-lg-5 col-sm-6">
@@ -103,7 +103,7 @@ const FooterOne = () => {
                     <form action="#">
                       <input
                         type="email"
-                        placeholder="info@genfinityglobal.com"
+                        // placeholder="info@genfinityglobal.com"
                         required
                       />
                       <button type="submit">
@@ -120,7 +120,7 @@ const FooterOne = () => {
         <div class="col-lg-12">
             <div class="copyright-text">
                 <p>
-                    Copyright &copy; 2024. All Rights Reserved Genfinity Global
+                    Copyright &copy; 2024. All Rights Reserved CLOUD AND DATA CENTRES CONFERENCE
                 </p>
             </div>
         </div>

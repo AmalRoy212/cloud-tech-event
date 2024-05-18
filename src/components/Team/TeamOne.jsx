@@ -1,12 +1,4 @@
 import React from "react";
-import img01 from "../../assets/img/team/anatomy.png";
-import img02 from "../../assets/img/team/team_img02.png";
-import img03 from "../../assets/img/team/team_img03.png";
-import img04 from "../../assets/img/team/team_img04.png";
-import img05 from "../../assets/img/team/team_img05.png";
-import img06 from "../../assets/img/team/team_img06.png";
-import img07 from "../../assets/img/team/team_img07.png";
-import img08 from "../../assets/img/team/team_img08.png";
 import TeamOneItem from "./TeamOneItem";
 
 const TeamOne = () => {
@@ -54,9 +46,9 @@ const TeamOne = () => {
   ];
 
   return (
-    <section className="team-area pt-130">
-      <div className="container">
-        <div className="row justify-content-center">
+    <section className="team-area">
+      <div>
+        <div className="row justify-content-center" style={{backgroundColor:"black"}}>
           <div className="col-xl-6">
             <div className="section-title text-center mb-70">
               <span className="sub-title">topics</span>

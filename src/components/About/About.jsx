@@ -10,14 +10,6 @@ const About = () => {
         <div className="row align-items-center">
           <div className="col-lg-6">
             <div
-              className="about-img-two text-center wow fadeInLeft"
-              data-wow-delay=".2s"
-            >
-              <img src={aboutImg} alt="" />
-            </div>
-          </div>
-          <div className="col-lg-6">
-            <div
               className="about-content-two wow fadeInRight"
               data-wow-delay=".2s"
             >
@@ -60,6 +52,14 @@ const About = () => {
               </div>
 
     
+            </div>
+          </div>
+          <div className="col-lg-6">
+            <div
+              className="about-img-two text-center wow fadeInLeft"
+              data-wow-delay=".2s"
+            >
+              <img src={aboutImg} alt="" />
             </div>
           </div>
         </div>

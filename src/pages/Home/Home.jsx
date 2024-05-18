@@ -1,6 +1,5 @@
 import React from "react";
 import Banner from "../../components/Banner/Banner";
-// import Roadmap from "../../components/Roadmap/Roadmap";
 import Sales from "../../components/Sales/Sales";
 import TeamOne from "../../components/Team/TeamOne";
 import TopPartners from "../../components/TopPartners/TopPartners";
@@ -9,6 +8,7 @@ import WhoWeAre from "../../components/WhoWeAre/WhoWeAre";
 import WhyChooseUs from "../../components/WhyChooseUs/WhyChooseUs";
 import LayoutOne from "../../layouts/LayoutOne";
 import About from "../../components/About/About";
+import { ExtraCards } from "../../components/Counter/ExtraCards";
 
 const Home = () => {
   return (
@@ -16,10 +16,11 @@ const Home = () => {
       <main className="fix">
         <Banner />
         <WhoWeAre />
-        <About/>
+        <About />
         <TopPartners />
-        <WhyChooseUs />
-        {/* <Sales /> */}
+        <ExtraCards />
+        {/* <WhyChooseUs /> */}
+        <Sales />
         <div className="area-bg">
           <WhitePaper />
         </div>
